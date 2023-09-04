@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pre-container {
+    height: 100vh;
+    background-color: #F8FF95;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.banner {
+    color: #016A70;
+    font-size: 5rem;
+}
+
+h2 {
+    color: #016A70;
+    font-size: 3rem;
+}
+
+.playerOne, .playerTwo {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.diceImg {
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+
+.active {
+    visibility: visible;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
